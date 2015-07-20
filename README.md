@@ -1,9 +1,9 @@
 # js-poisoner
 ###Tampering with CDN's over the wire
 
-This takes an advantage of the inherent vulnerabilities of
-network structures. Which demonstrates the importance of
-encrypting Internet traffic.
+This takes an advantage of the inherent vulnerabilities 
+of network structures. Which demonstrates the importance 
+of encrypting Internet traffic.
 
 This is a composed of a squid3 setup script and url rewrite program
 
