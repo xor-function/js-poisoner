@@ -15,6 +15,8 @@ target web page as an example.
 Method of Use
 
 Note: This will not work against encrypted traffic.
+but can work against https sites that pull js scripts over 
+regular http.
 
 This makes use of a web caching proxy (squid3) to tamper with
 urls belonging javascript libraries via a url rewrite program.
