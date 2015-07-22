@@ -14,7 +14,7 @@ target web page as an example.
 
 Method of Use
 
-Note: This will not work against encrypted traffic.
+Note: This will not work against encrypted traffic,
 but can work against https sites that pull js scripts over 
 regular http.
 
