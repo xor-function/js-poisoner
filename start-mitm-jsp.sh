@@ -139,11 +139,6 @@ banner
 chk_usr root
 chk_tubes
 
-clear
-banner
-chk_usr root
-chk_tubes
-
 if [ ! -f /etc/squid3/squid.conf ]; then
         echo "[!] squid3 proxy not detected, have you run the installer?"
         echo "[!] Cannot continue, exiting...                           "
