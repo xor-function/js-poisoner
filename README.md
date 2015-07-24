@@ -27,9 +27,9 @@ Copy it's link then download the .js file specified, through a
 web browser or with curl/wget.
 
 Then modify the contents of js-poisoner to suit your needs and
-append the contents of this file to the downloaded js file.
+append the contents of poisoner.js to the downloaded js file.
 
-Place the js file in the public_html or /var/www web root of a
+Place the moded js file in the public_html or /var/www web root of a
 web server and change to appropriate permissions so that it's
 publicly downloadable.
 
