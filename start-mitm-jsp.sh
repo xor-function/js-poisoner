@@ -42,7 +42,7 @@ get_aptpkg() {
         tpkg=$(dpkg -s $1 | grep "install ok install")
         if [ -z "$tpkg" ]; then
 
-                echo "[*] Checking if PPA that patches no output issue with Ubuntu 14.04 LTS avaliable"
+                echo "[*] Checking if PPA that patches a no output issue with dsniff in Ubuntu 14.04 LTS is avaliable"
                 add-apt-repository http://ppa.launchpad.net/evarlast/dsniff/ubuntu
                 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A65E2E5D742A38EE
 
