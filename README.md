@@ -5,8 +5,7 @@ This takes an advantage of the inherent vulnerabilities
 of network structures. Which demonstrates the importance 
 of encrypting Internet traffic.
 
-This is a composed of a squid3 setup script and url rewrite program
-
+This is composed of a squid3 setup script and url rewrite program
 along with some javascript code that is designed to add undesired
 functionality to a website. By default an iframe is appended to a
 target web page as an example.
